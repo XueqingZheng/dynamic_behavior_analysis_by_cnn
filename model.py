@@ -1,7 +1,6 @@
 import tensorflow as tf
 from network import embedding, conv, max_pool, concat, dropout, fc, batch_norm
 
-
 class Model(object):
     @staticmethod
     def cnn_text(net_input, sequence_length, vocab_size, embedding_size, stride_h, filter_sizes, num_filters,
